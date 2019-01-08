@@ -180,6 +180,11 @@ section.details {
 section.details div {
 	display: inline-block;
 	width: 440px;
+	text-align: center;
+}
+
+section.more-details div {
+	padding-bottom: 30px;
 }
 
 section.details .features {
@@ -286,4 +291,42 @@ footer p {
 
 header .sixtypercent .main-heading .heading-container button:hover {
 	animation: border_color_change 2s alternate infinite;
+}
+
+
+#about .full-width-image {
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+/* ===== additional animations and transformations for about page ===== */
+
+@keyframes turn_bg {
+	0% {
+		background: none;
+		color: black;
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	20% {
+		opacity: 0.5;
+	}
+
+	75% {
+		opacity: 0.5;
+	}
+
+	100% {
+		background: black;
+		color: white;
+		opacity: 1;
+		transform: scale(1.3);
+	}
+}
+  
+.more-details div:hover {
+	animation: turn_bg 1s forwards;
 }
