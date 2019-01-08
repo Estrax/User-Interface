@@ -253,3 +253,27 @@ footer {
 footer p {
 	margin: 0 auto;
 }
+
+/* ===== stretch: animations ===== */
+
+@keyframes border_color_change {
+	20% {
+		border-color: red;
+	}
+	40% {
+		border-color: yellow;
+	}
+	60% {
+		border-color: green;
+	}
+	80% {
+		border-color: cyan;
+	}
+	100% {
+		border-color: blue;
+	}
+}
+
+header .sixtypercent .main-heading .heading-container button:hover {
+	animation: border_color_change 2s alternate infinite;
+}
