@@ -87,6 +87,15 @@ h1, h2, h3, h4, h5 {
 	display: inline-block;
 }
 
+.full-width-image {
+	display: block;
+}
+
+.full-width-image img {
+	width: 100%;
+	padding: 20px 0 20px;
+}
+
 .line {
 	display: block;
 	width: 100%;
