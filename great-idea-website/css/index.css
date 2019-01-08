@@ -69,11 +69,21 @@ h1, h2, h3, h4, h5 {
 	width: 80%;
 	max-width: 900px;
 	margin: 0 auto;
+	padding-top: 120px;
 }
 
 .navigation-bar {
+	width: 100%;
+	background: #696;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+
+.navigation-bar .nav-container {
 	display: table;
-	padding-top: 40px;
+	padding: 40px 0;
+	margin: 0 auto;
 }
 
 .navigation-bar nav {
@@ -99,7 +109,7 @@ h1, h2, h3, h4, h5 {
 	margin-right: 90px;
 }
 
-.navigation-bar div {
+.navigation-bar .nav-container div {
 	display: table-cell;
 	vertical-align: middle;
 	width: 183px;
