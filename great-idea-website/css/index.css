@@ -96,12 +96,18 @@ h1, h2, h3, h4, h5 {
 
 .navigation-bar nav a:last-child {
 	margin-left: 30px;
+	margin-right: 90px;
 }
 
-.navigation-bar img {
+.navigation-bar div {
 	display: table-cell;
 	vertical-align: middle;
-	margin-left: 90px;
+	width: 183px;
+	height: 36px;
+	background-image: url('../img/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 header {
@@ -149,6 +155,11 @@ header .fortypercent {
 	display: table-cell;
 	vertical-align: middle;
 	margin: 0 auto;
+	
+	background-image: url('../img/header-img.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 section.details {
@@ -171,12 +182,19 @@ section.details .about {
 
 .full-width-image {
 	display: block;
+	width: 900px;
+	height: 186px;
+	padding: 20px 0 20px;
+	background-image: url('../img/mid-page-accent.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
-.full-width-image img {
+/* .full-width-image img {
 	width: 100%;
 	padding: 20px 0 20px;
-}
+} */
 
 section.offerings {
 	display: block;
